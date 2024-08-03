@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: "Inter", sans-serif;
+}
+
+#page {
+    max-width: 100%;
+    max-height: 100%;
+    padding: 10px;
+}
+
+body {
+    background-color: #111;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    text-align: center;
+}
+
+i {
+    font-size: 2rem;
+}
+
+.search {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+input {
+    color: #fff;
+    background-color: #333;
+    border: none;
+    outline: none;
+    max-width: 100%;
+    font-size: 1rem;
+}
+
+button {
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #111;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:active {
+    scale: 0.98;
+}
+
+.avatar {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.avatar img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.count {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#view-profile {
+    font-weight: 700;
+    font-size: 1rem;
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    padding: 15px;
+}
+
+.error {
+    text-align: center;
+}
